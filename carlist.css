@@ -1,0 +1,115 @@
+
+.car{
+	width:100%;
+	font-size: 50px;
+	text-align: center;
+  color:white;
+  margin:0px;
+  height: auto;
+  background-color: rgba(0,0,0,0.5);
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('carlist-header.jpg');*/
+}
+.card{
+	width:32%;
+	float:left;
+	overflow: auto;
+	display: table-cell;
+	margin-right: 1%;
+	padding-bottom: 2px;
+	position: relative;
+}
+.column img{
+	width:100%;
+	height: 300px;
+	display: block;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0px;
+  right: 0;
+  background-color:rgba(0,0,0,0.5);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+.card:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+input[type=button]{
+  font-size: 20px;
+  width:100%;
+  border-radius: 3px;
+}
+input[type=button]:hover{
+  color:white;
+  background-color: orange;
+}
+input[type=date]{
+}
+.bkform{
+  height: 40%;
+  width: 40%;
+  margin-left: 20%;
+  top:70px;
+  position: absolute;
+  background-color: lightblue;
+  color:black;
+  display: block;
+  overflow: hidden;
+}
+.bkform h1{
+  margin-left: 25px;
+  display: inline-block; 
+  border-bottom: 1px solid black;
+  width: 450px;
+  text-align: center;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    position: absolute;
+    top:15px;
+    left:480px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+.bkform{
+  display: none;
+}
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.bkform{
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: 0.5s;
+
+}
+input[type=submit]{
+  margin-top: 20px;
+}

@@ -1,0 +1,77 @@
+./*right p{
+		display: inline;
+		padding-right: 10px;
+		text-decoration: none;
+	}*/
+	.first{
+		margin: 30px 5px;
+	}
+	.first .left1{
+		width:40%;
+		float: left;
+		display: table-cell;
+		padding-left: 5%;
+		height:600px;
+	}
+	.first .right1{
+		width:40%;
+		float: right;
+		height:600;
+		padding-right: 10%;
+	}
+	.first .right1 h1{
+		font-size: 50px;
+		display: block;
+		line-height: 20px;
+	}
+	.first .right1 h3{
+		text-align: center;
+		font-size: 30px;
+		background-color: blue;
+	}
+	.first .right1 p{
+		font-size: 20px;
+	}
+	.brands{
+		clear: both;
+		width:100%;
+		background-color: black;
+	}
+	.brands img{
+		margin:0 0 0 30px;
+		border-radius: 10px;
+		border:none;
+	}
+	.brands img:hover{
+		-webkit-transform:scale(0.8);
+	}
+	.partner{
+		background-color: orange;
+		width:100%;
+		margin-top: 6px;
+		height:200px;
+		overflow: hidden;
+	}
+	.left6,.right6,.right7,.right8{
+		float: left;
+		width:20%;
+		margin-left: 60px;
+		border-right: 1px solid blue;
+		padding-top: 15px;
+		margin-top: 25%;
+		height:120px;
+		margin-top: 3px;	
+	}
+	.right8{
+		border:none;
+	}
+	.left6 h1,.right6 h1,.right7 h1,.right8 h1{
+		color:black;
+		margin-top: 10px;
+		font-size: 50px;
+		text-align: center;
+	}
+	.left6 h3,.right6 h3,.right7 h3,.right8 h3{
+		font-size: 30px;
+		text-align: center;
+	}

@@ -1,0 +1,264 @@
+.menu{
+	width: 100%;
+	background-color: #17202A;
+	height:100px;
+	overflow: visible;
+}
+.left{
+	width:30%;
+	float: left;
+	line-height: 80px;
+}
+.right{
+	width:70%;
+	float: right;
+}
+label{
+	font-size: 300%;
+	padding-left: 40px;
+	color:white;
+}
+ul{
+	margin-left:100px;
+}
+ul li{
+	float: left;
+	list-style-type: none;
+	padding: 8px 14px;
+	display: block;
+	line-height: 50px;
+
+}
+ul li a{
+	color:red;
+	text-decoration: none;
+	font-size: 20px;
+}
+ul li a:hover{
+	color:white;
+	transition: 0.2s;
+	font-size: 25px;
+}
+.image{
+	/*background-image: url("download.jpg");*/
+	background-image: url("header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	width:98.8%;
+	position: absolute;
+	height:100%;
+}
+.image h3{
+	color:whitesmoke;
+	font-size: 45px;
+	position:absolute;
+	top:150px;
+	left:400px;
+	width:50%;
+}
+.image h5{
+    color:whitesmoke;
+	font-size: 45px;
+	position:absolute;
+	top:250px;
+	left:400px;
+	width:50%;
+}
+/*@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}*/
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+.image h3,h5 {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+    animation-duration: 2s;
+}
+
+/*.image h3,h5{
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  animation-duration: 2s;
+}*/
+/*.image h5{
+	color:whitesmoke;
+	font-size: 20px;
+	position:absolute;
+	top:280px;
+	left:870px;
+	width:20%;
+	line-height: 30px;	
+}*/
+.login{
+	width:120px;
+	color:white;
+	background-color: black;
+	font-size: 30px;
+	border-radius: 1px;
+}
+.login:hover,.signup:hover{
+	background-color: orange;
+	color:black;
+}
+.signup{
+	width:140px;
+	color:white;
+	background-color: black;
+	font-size: 30px;
+	border-radius: 1px;
+}
+.form,.register{
+	height: 70%;
+	width: 40%;
+	margin-left: 20%;
+	position: relative;
+	background-color: white;
+}
+input[type=email],input[type=password],input[type=text]{
+	width: 80%;
+	padding: 8px;
+	margin-bottom: 10px;
+	margin-left:28px;
+	display: block;	
+	background-color: #E5E7E9;
+}
+input[type=submit]{
+	width: 84%;
+	text-align: center;
+	padding: 8px 0px;
+	margin-bottom: 10px;
+	margin-left: 28px;
+	display: block;	
+	background-color: orange;
+	font-size: 25px;
+}
+.form h1,.register h1{
+	margin-left: 25px;
+	display: inline-block; 
+	border-bottom: 1px solid black;
+	width: 450px;
+}
+input[type=submit]:hover{
+	opacity: 0.8;
+}
+.form,.register{
+	display: none;
+}
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.form,.register{
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  animation-duration: 0.5s;
+
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    position: relative;
+    top:-5px;
+    left:-40px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+.error {
+  width: 20%; 
+  margin-left: 30%;	 
+  padding-left: 0%;
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  position: relative;
+  text-align: center;
+  left:0px;
+  background: #f2dede;  
+}
+.base{
+	width:100%;
+	height:200px;
+	position: relative;
+	background-color: white;
+	top:630px;
+}
+.base h1{
+	font-size: 50px;
+	color:black;
+	text-align: center;
+}
+.base p{
+	font-size: 35px;
+	text-align: center;
+}
+.chooseus{
+	position:relative;
+	top:620px;
+	background-color: #1c1c1c;
+	width:100%;
+	overflow: hidden;
+	height:300px;
+}
+.chooseus h1{
+	font-size: 35px;
+	text-align: center;
+	color:white;
+}
+.chooseus .left4,.right4,.middle{
+	text-align: center;
+	width:25%;
+	float: left;
+	margin-left: 80px;
+	border:2px groove black;
+	background-color: orange;
+	color:white;
+}
+.left4 h3,.right4 h3,.middle h3{
+	font-size: 25px;
+}
+.left4:hover,.right4:hover,.middle:hover{
+	background-color: black;
+	transform: scale(1.2);
+}
+footer{
+	position: relative;
+	top:580px;
+	background-color: black;
+	height:100px;
+}
+footer h3{
+	padding-top: 30px;
+	font-size:35px;
+	text-align: center;
+	color: white;
+}

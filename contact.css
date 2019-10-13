@@ -1,0 +1,43 @@
+
+.main input[type=text],.main input[type=email], textarea {
+    width: 80%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+}
+textarea{
+    margin-left: 22px;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.main .left2{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.main .left2{
+    width:50%;
+    float:left;
+}
+.main .right2{
+    width:40%;
+    float:right;
+}
+.main label{
+    font-size: 30px;
+    color:black;
+    margin-left: -20px;
+}
